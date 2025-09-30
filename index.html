@@ -13,21 +13,36 @@
 <body>
     <header>
         <div class="left-section">
-            <img class="img1" src="images/list.svg" alt="">
-            <img class="img2" src="images/youtube-logo.svg" alt="">
+                 <img class="img1" src="images/list.svg" alt="">
+            <div class=" tooltip-container">
+                <img class="img2" src="images/youtube-logo.svg" alt="">
+                <div class="tool-tip">YouTube Home</div>
+             </div>
         </div>
 
          <div class="middle-section">
-            <input type="search" placeholder="search">
-            <img class="search-icon" src="images/search.svg" alt="">
-            <img class="mic-icon" src="images/mic-fill.svg" alt="">
+            <input class="search-input" type="search" placeholder="search">
+            <button class="search-icon" > 
+                 <img  src="images/search.svg" alt="">
+                  <div class="tool-tip">Search</div>
+             </button>
+            <button class="mic-icon">
+                  <img  src="images/mic-fill.svg" alt="">
+                  <div class="tool-tip">Search With Your Voice</div>
+                </button>
+           
         </div>
 
           <div class="right-section">
-             <img class="plus-icon" src="images/plus-lg.svg" alt="">
-             <button> Create</button>
-             <img class="bell-icon" src="images/bell.svg" alt="">
-             <p class="notification-count">9+</p>
+             
+             <button> <img class="plus-icon" src="images/plus-lg.svg" alt=""> Create</button>
+             <div class="not">
+                 <img class="bell-icon" src="images/bell.svg" alt="">
+                 <div class="tool-tip">notification</div>
+                 <div class="notification">3</div>
+             </div>
+            
+             
              <img class="profile-icon" src="images/person-circle.svg" alt="">
              
           </div>
@@ -35,32 +50,37 @@
     </header>
 
     <nav>
-        <div>
+        <div class="nav-bar">
             <img src="images/house-door-fill.svg" alt="">
-            <p>Home</p>
+            <div class="tool-tip">Home</div>
+            <div class="subdiv">Home</div>
         </div>
-        <div>
+        <div  class="nav-bar">
              <img src="images/film.svg" alt="">
-            <p>Shorts</p>
+             <div class="tool-tip">Shorts</div>
+             <div class="subdiv">Shorts</div>
         </div>
-        <div>
+        <div  class="nav-bar">
             <img src="images/collection-play-fill.svg" alt=""> 
-            <p>Subscriptions</p> 
+            <div class="tool-tip">Subscriptions</div>
+            <div class="subdiv">Subscriptions</div>
         </div>
-        <div>
+        <div  class="nav-bar">
             <img src="images/person-circle.svg" alt="">
-            <p>Library</p>
+            <div class="tool-tip">You</div>
+            <div class="subdiv">You</div>
         </div>
-        <div>
+        <div  class="nav-bar">
             <img src="images/download.svg" alt="">
-            <p>Downloads</p>
+            <div class="tool-tip">Download</div>
+            <div class="subdiv">Downloads</div>
         </div>
     </nav>
     <div class="main-div">
             <div class="full-box">
             <div class="thumbnail-image">
                 <img src= "images/hq720.avif" class="image-t">
-                <p class="video-time">8:56</p>
+                <div class="video-time">8:56</div>
             </div>
             <div class="youtube-text">
                 <div> <img class="channal-picture" src="images/channels4_profile.jpg" alt=""> </div>
@@ -75,7 +95,8 @@
         <div class="full-box">
             <div class="thumbnail-image">
                 <img src="images/hq720 (1).avif" class="image-t" alt="">
-                <p class="video-time">5:36</p>
+                <div class="video-time">5:36</div>
+               
             </div>
             <div class="youtube-text">
                 <div> <img class="channal-picture" src="images/channels4_profile (1).jpg" alt=""> </div>
@@ -90,7 +111,8 @@
         <div class="full-box">
             <div class="thumbnail-image">
                 <img src="images/img 3.avif" class="image-t" alt="">
-                <p class="video-time">10:42</p>
+                <div class="video-time">12:51</div>
+               
             </div>
             <div class="youtube-text">
                 <div> <img class="channal-picture" src="images/3.0.jpg" alt=""> </div>
@@ -105,7 +127,8 @@
          <div class="full-box">
             <div class="thumbnail-image">
                 <img src="images/hq720 4.avif" class="image-t" alt="">
-                <p class="video-time">8:14</p>
+                <div class="video-time">9:42</div>
+                
             </div>
             <div class="youtube-text">
                 <div> <img class="channal-picture" src="images/4.0.jpg" alt=""> </div>
@@ -120,7 +143,8 @@
         <div class="full-box">
             <div class="thumbnail-image">
                 <img src="images/hq720 5.avif" class="image-t" alt="">
-                <p class="video-time">7:43</p>
+                <div class="video-time">7:43</div>
+                
             </div>
             <div class="youtube-text">
                 <div> <img class="channal-picture" src="images/channels5_profile.jpg" alt=""> </div>
@@ -134,8 +158,13 @@
 
         <div class="full-box">
             <div class="thumbnail-image">
-                <img src="images/hq720 6.avif" class="image-t" alt="">
-                <p class="video-time">10:27</p>
+               
+                      <div class="video-time">10:27</div>
+                      <img src="images/hq720 6.avif" class="image-t" alt="">
+             
+               
+               
+                
             </div>
             <div class="youtube-text">
                 <div> <img class="channal-picture" src="images/channels6_profile.jpg" alt=""> </div>

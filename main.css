@@ -6,3 +6,53 @@ body{
     margin: 0px;
     padding-top:70px;
 }
+.tooltip-container ,
+.search-icon ,
+.mic-icon,
+.not{
+    position: relative;
+}
+.tooltip-container .tool-tip,
+.search-icon .tool-tip,
+.mic-icon .tool-tip,
+.not .tool-tip{
+    position: absolute;
+    border: 1px solid lightgray;
+    padding:5px 6px;
+    font-size: 12px;
+    opacity:0;
+    transition: opacity 0.20s;
+    pointer-events: none;
+    white-space: nowrap;
+    background-color: white;
+}
+.tooltip-container:hover .tool-tip,
+.search-icon:hover .tool-tip,
+.mic-icon:hover .tool-tip,
+.not:hover .tool-tip{
+    opacity: 1;
+}
+
+.nav-bar{
+    position: relative;
+}
+.nav-bar .tool-tip{
+    position: absolute;
+    border: 1px solid lightgray;
+    padding:5px 6px;
+    font-size: 12px;
+    border: 1px solid lightgray;
+    opacity:0;
+    transition: opacity 0.20s;
+    pointer-events: none;
+    white-space: nowrap;
+    bottom: -30px;
+    right: -20px;
+    
+   background-color: white;
+}
+.nav-bar:hover .tool-tip{
+    opacity: 1;
+}
+
+
